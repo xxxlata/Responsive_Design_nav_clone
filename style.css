@@ -1,6 +1,11 @@
-*{
+* {
     margin: 0;
+    padding: 0;
 }
+ul,li{
+    list-style: none;
+}
+
 
 body{
     font-family: "Proxima Nova",Arial,sans-serif;
@@ -13,16 +18,15 @@ body{
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap;
-    padding: 0 80px;
     height: 60px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
 } 
 
 .top_baner{
     display: flex;
-    justify-content: flex-start;
+    margin-left: 10%; 
     align-items: center;
-    margin-left: 50px;
+    
 }
 
 .top_baner > a {
@@ -36,7 +40,7 @@ body{
 }
 
 .top_menu{
-    
+    margin-left: 1rem;
     font-size: 13px;
 }
 
@@ -48,7 +52,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 50px;
+    width: 30%;
+    justify-content: center;
+    
 }
 
 .top_follow{
@@ -69,12 +75,11 @@ body{
 .sec_top{
     background-color: #f3f4f7;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     height: 59px;
-    width: 80%;
-    margin: 0 26px 0px 125px;
     box-shadow: inset 0 3px 7px 0 rgba(0,0,0,0.1);
+    
 }
 
 .design_kat{
@@ -89,7 +94,7 @@ body{
 .design_kat a {
     display: flex;
     justify-content: space-between;
-    width: 230px;
+    width: 90%;
 }
 
 .design_kat span {
@@ -102,14 +107,15 @@ body{
 }
 
 .search{
+    display: flex;
+    align-items: center;
+    width: 52%;
+    margin-right: 10%;
     
-    width: 70%;
 }
 .search input {
-    
-    width:90%;
+    width:80%;
     height: 20px;
-    margin-top: 20px;
     border-style:none ;
     background-color: #f3f4f7;
     font-size: 20px;
@@ -125,7 +131,7 @@ input::placeholder {
 }
 
 .bars_i > i{
-    margin-left: 20px;
+    margin-left: 1rem;
     font-size: 24px;
     color: rgba(0, 0, 0, 0.2);
 }
@@ -151,7 +157,7 @@ input::placeholder {
 }
 @media screen and (max-width: 930px) {
     .design_kat{
-        width: 90%;
+        width: 65%;
     }
     .search{
         width: 10%;    
