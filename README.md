@@ -25,3 +25,5 @@ ex) font-size: 16px를 2rem으로 바꾼다면. 2배의 크기 32px가 된다.
 ![src](screenshot/1024x768.png?raw=true)
 
 ### 모바일 화면
+
+### 태블릿 화면
