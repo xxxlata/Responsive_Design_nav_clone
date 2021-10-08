@@ -19,11 +19,13 @@ ex) font-size: 16px를 2rem으로 바꾼다면. 2배의 크기 32px가 된다.
 
 ### 원본화면 
 
+![src](screenshot/re_1496x342.png?raw=true)
+![src]( screenshot/re_412x342_mob.png?raw=true)
 
 ### PC 화면
 
-![src](screenshot/1024x768.png?raw=true)
+![src](screenshot/1760x403_clone.png?raw=true)
 
 ### 모바일 화면
 
-### 태블릿 화면
+![src](screenshot/re_412x342_mob_clone.png?raw=true)
